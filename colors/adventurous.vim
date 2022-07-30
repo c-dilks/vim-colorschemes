@@ -25,7 +25,7 @@ hi StatusLineNC ctermfg=255 ctermbg=238 cterm=NONE guifg=#F8F8F2 guibg=#404449 g
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#404449 gui=NONE
 hi IncSearch ctermfg=234 ctermbg=220 cterm=NONE guifg=#191B1F guibg=#FFC620 gui=NONE
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi Search ctermfg=44 ctermbg=240 cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=32 ctermbg=NONE cterm=NONE guifg=#277BD3 guibg=NONE gui=NONE
 hi Folded ctermfg=32 ctermbg=234 cterm=NONE guifg=#277BD3 guibg=#191B1F gui=NONE
 if has('gui_running') || exists('neovim_dot_app')
@@ -40,7 +40,7 @@ endif
 
 hi Boolean ctermfg=32 ctermbg=NONE cterm=NONE guifg=#277BD3 guibg=NONE gui=NONE
 hi Character ctermfg=32 ctermbg=NONE cterm=NONE guifg=#277BD3 guibg=NONE gui=NONE
-hi Comment ctermfg=32 ctermbg=NONE cterm=italic guifg=#277BD3 guibg=NONE gui=italic
+hi Comment ctermfg=34 ctermbg=NONE cterm=italic guifg=#277BD3 guibg=NONE gui=italic
 hi Conditional ctermfg=168 ctermbg=NONE cterm=NONE guifg=#DE347A guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Define ctermfg=168 ctermbg=NONE cterm=NONE guifg=#DE347A guibg=NONE gui=NONE
