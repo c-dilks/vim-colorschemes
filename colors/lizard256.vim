@@ -233,7 +233,7 @@ fun <SID>X(group, fg, bg, attr)
 endfun
 " }}}
 
-call <SID>X("Normal",		"cccccc",	"242424",	"none")
+call <SID>X("Normal",		"cccccc",	"000000",	"none")
 call <SID>X("Cursor",		"222222",	"ecee90",	"none")
 call <SID>X("CursorLine",	"",			"32322e",	"none")
 call <SID>X("ColorColumn",	"",			"2d2d2d",	"none")
@@ -270,8 +270,8 @@ call <SID>X("WarningMsg",	"ff0000",	"",			"")
 " syntax highlighting
 call <SID>X("Number",		"e5786d",	"",			"none")
 call <SID>X("Constant",		"e5786d",	"",			"none")
-call <SID>X("String",		"95e454",	"",			"italic")
-call <SID>X("Comment",		"c0bc6c",	"",			"italic")
+call <SID>X("String",		"44ff44",	"",			"italic")
+call <SID>X("Comment",		"ff5555",	"",			"italic")
 call <SID>X("Identifier",	"caeb82",	"",			"none")
 call <SID>X("Keyword",		"87afff",	"",			"none")
 call <SID>X("Statement",	"87afff",	"",			"none")
